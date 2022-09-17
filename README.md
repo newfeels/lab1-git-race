@@ -16,4 +16,4 @@ user name | NIA | GitHub Action |Score
 [UNIZAR-30246-WebEngineering](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race) |30246 | [![Build Status](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml)
 [Ernesting](https://github.com/Ernesting/lab1-git-race) |798799 | [![Build Status](https://github.com/Ernesting/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Ernesting/lab1-git-race/actions/workflows/ci.yml)
 (https://travis-ci.org/Ernesting/lab1-git-race)
-your name | your NIA | your GitHub Action status
+

@@ -10,19 +10,19 @@ import org.springframework.web.bind.annotation.GetMapping
 @Controller
 class HelloController {
     /**
-     * The variable [message] will take the value of [src.main.resources.application.properties.app.message], or "Hello World" if not defined
+     * The variable [message] will take the value of the key [app.message] in the resource file [application.properties] , or "Hello World" if not defined
      * 
      */
     @Value("\${app.message}")
     private var message: String = "Hello World"
 
     /**
-     * Response to http://localhost:8080/ (root URL) route request
+     * Response to / request
      * 
      * This function is executed when the HTTP route request matches the root URL of the server.  
      * 
-     * @param model HelloController[message] will be saved in [model]["message"] map key
-     * @return [src.main.resources.templates.welcome.html]
+     * @param model the model in MVC (Model-View-Controller pattern)
+     * @return the name of the view in MVC
      */
     @GetMapping("/")
     fun welcome(model: MutableMap<String,Any>): String {
