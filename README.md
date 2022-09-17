@@ -14,6 +14,4 @@ Some ideas for obtaining a :gift: if you are the first that:
 user name | NIA | GitHub Action |Score
 ----------|-----|---------------|-----
 [UNIZAR-30246-WebEngineering](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race) |30246 | [![Build Status](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml)
-[Davidzf21](https://github.com/Davidzf21/lab1-git-race) | 780500 | [![Build Status](https://github.com/Davidzf21/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Davidzf21/lab1-git-race/actions/workflows/ci.yml)
-(https://travis-ci.org/Davidzf21/lab1-git-race)
-your name | your NIA | your GitHub Action status
+[Davidzf21](https://github.com/Davidzf21/lab1-git-race) |780500 | [![Build Status](https://github.com/Davidzf21/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Davidzf21/lab1-git-race/actions/workflows/ci.yml)
