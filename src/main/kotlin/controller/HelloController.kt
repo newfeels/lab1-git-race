@@ -22,7 +22,7 @@ class HelloController {
      * This function is executed when the HTTP route request matches the root URL of the server.  
      * 
      * @param model HelloController[message] will be saved in [model]["message"] map key
-     * @return "welcome"
+     * @return [src.main.resources.templates.welcome.html]
      */
     @GetMapping("/")
     fun welcome(model: MutableMap<String,Any>): String {
