@@ -1,7 +1,3 @@
-# Description of the contents of this project
-
-Complete me!
-
 ## Build the app
 
 For building and running the app you will have to use  `gradlew`:
