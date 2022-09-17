@@ -4,14 +4,20 @@ import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.GetMapping
 
-/* This class HelloController.kt creates a variable of type map and implements a function 
-    called "welcome" which recieves a MutableMap<String,Any> where the function writes the message created before
-    and returns a String with "welcome". */
+/**
+*   This class HelloController configures the controller and set the initial message. 
+*   @constructor creates an empty controller.
+*/
 @Controller
 class HelloController {
     @Value("\${app.message}")
     private var message: String = "Hello World"
     @GetMapping("/")
+    /**
+    *   Adds "Hello world"(value) in the key identified as "message" in model 
+    *   @param model : modifiable collection that holds pairs of objects (keys and values).
+    *   @return string "welcome". 
+    */
     fun welcome(model: MutableMap<String,Any>): String {
         model["message"] =  message
         return "welcome"
