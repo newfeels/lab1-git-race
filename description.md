@@ -19,6 +19,28 @@ These technologies can be divided depending on its use:
 
 ## Deployment
 
+### Docker Usage
+
+to build the docker image and run the container:
+
+```sh
+docker build . -t lab1-git-race -f .\src\main\docker\app.dockerfile
+
+docker run -d -p 8080:8080 --name lab1-git-race-container lab1-git-race
+```
+
+To stop the container use:
+
+```sh
+docker stop <identifier:hash>
+```
+
+### Docker Compose
+
+```sh
+docker-compose up -d
+```
+
 ### How to deploy in a Kubernetes cluster
 
 First of all, ensure you've got a properly configured cluster on your computer.
