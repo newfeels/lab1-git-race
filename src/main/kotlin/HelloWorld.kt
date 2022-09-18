@@ -10,7 +10,7 @@ import org.springframework.boot.runApplication
  * by compiler.
  * In this case, it's an alias of 3 annotations:
  *   [EnableAutoConfiguration] allows application to automatically configure the Spring application.
- *   [ComponentScan] allows @Component scan on the package where the application is located.
+ *   [ComponentScan] allows [Component] scan on the package where the application is located.
  *   [Configuration] allows to import additional configuration classes.
  */
 @SpringBootApplication
