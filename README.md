@@ -4,8 +4,8 @@ Please, go to the [GUIDE](docs/GUIDE.md) in order to get the instructions for th
 
 Some ideas for obtaining a :gift: if you are the first that:
 
-- **Moby Dick**: Use Docker to run the app
-- **Moby Dick II**: Use Docker Compose to run the app
+- ~**Moby Dick**: Use Docker to run the app~ solved by [hec7orci7o](https://github.com/Hec7or-Uni/lab1-git-race).
+- ~**Moby Dick II**: Use Docker Compose to run the app~ solved by [hec7orci7o](https://github.com/Hec7or-Uni/lab1-git-race).
 - ~**Moby Dick III**: Use Kubernetes (minikube) to run the app~ solved by [ZenithGD](https://github.com/ZenithGD/lab1-git-race).
 - **Home improvement**: Use a markup template language different from Thymeleaf (server side)
 - **Home improvement II**: Use an endpoint that returns the message and update the HTML in client side (no MVC server side)
