@@ -23,7 +23,7 @@ class Application
  */
 fun main(args: Array<String>) {
     /**
-     * runApplication starts the application with default configuration.
+     * [runApplication] starts the application with default configuration.
      */
     runApplication<Application>(*args)
 }
