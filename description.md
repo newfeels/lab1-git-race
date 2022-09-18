@@ -1,5 +1,22 @@
 # Description of the contents of this project
 
+<!-- TOC -->
+
+* [Which are the technologies used in the code](#which-are-the-technologies-used-in-the-code)
+* [Deployment](#deployment)
+    * [Docker Usage](#docker-usage)
+    * [Docker Compose](#docker-compose)
+    * [How to deploy in a Kubernetes cluster](#how-to-deploy-in-a-kubernetes-cluster)
+        * [With Minikube](#with-minikube)
+        * [Without Minikube](#without-minikube)
+* [Gradle Configuration](#gradle-configuration)
+    * [Plugins](#plugins)
+    * [Repositories](#repositories)
+    * [Dependencies](#dependencies)
+    * [Kotlin](#kotlin)
+
+<!-- /TOC -->
+
 ## Which are the technologies used in the code
 
 The technologies that we found in the project are:
@@ -19,10 +36,32 @@ These technologies can be divided depending on its use:
 
 ## Deployment
 
+### Docker Usage
+
+to build the docker image and run the container:
+
+```sh
+docker build . -t lab1-git-race -f .\src\main\docker\app.dockerfile
+
+docker run -d -p 8080:8080 --name lab1-git-race-container lab1-git-race
+```
+
+To stop the container use:
+
+```sh
+docker stop <identifier:hash>
+```
+
+### Docker Compose
+
+```sh
+docker-compose up -d
+```
+
 ### How to deploy in a Kubernetes cluster
 
-First of all, ensure you've got a properly configured cluster on your computer. 
-If you don't have one, you can easily install a local Kubernetes cluster via 
+First of all, ensure you've got a properly configured cluster on your computer.
+If you don't have one, you can easily install a local Kubernetes cluster via
 [Minikube](https://minikube.sigs.k8s.io/docs/start/).
 
 #### With Minikube
@@ -33,7 +72,7 @@ First, start your local cluster if you haven't done so yet:
 minikube start
 ```
 
-Once you have a running minikube cluster, apply the `deployment.yml` manifest as follows 
+Once you have a running minikube cluster, apply the `deployment.yml` manifest as follows
 (ensure your current directory is at the root of the project):
 
 ```bash
@@ -41,6 +80,7 @@ minikube kubectl -- apply -f .\deployment.yaml
 ```
 
 **Note:** Wait until the pods are on a `Running` state. You can check your cluster status with the following command:
+
 ```bash
 minikube kubectl get all
 ```
@@ -94,3 +134,43 @@ If you want to clean the cluster, enter the following command:
 ```bash
 kubectl delete -f deployment.yml
 ```
+
+## Gradle Configuration
+
+Gradle is a tool for automating building.  
+The Gradle build file `build.gradle.kts` (which is located in the main directory) specifies Gradle's configuration for this project.
+
+The build file consists of 4 main sections:
+
+* Plugins
+* Repositories
+* Dependencies
+* Kotlin
+* Kotlin compiler options
+
+### Plugins
+
+Plugins are extensions that add features to Gradle.
+In this project there are plugins added for [Kotlin](https://github.com/JetBrains/kotlin) and [SpringBoot](https://github.com/spring-projects/spring-boot).
+
+### Repositories
+
+In this section the repository for solving dependencies is declared.  
+In our case, `mavenCentral()` specifies that the [Maven Central public repository](https://repo.maven.apache.org/maven2/) will be used to solve dependencies.
+
+### Dependencies
+
+This section contains the dependencies of the project which will be downloaded from Maven's repository specified above.  
+The dependencies used in this project are:
+
+* [SpringBoot](https://github.com/spring-projects/spring-boot)
+* [Jackson](https://github.com/FasterXML/jackson)
+* [Kotlin Reflection](https://kotlinlang.org/docs/reflection.html#jvm-dependency)
+* Kotlin Standard Library JDK 8 extension
+* [Bootstrap WebJar](https://github.com/webjars/bootstrap)
+
+### Kotlin
+
+Kotlin is configured to run on the JVM.
+When the Kotlin targets the JVM platform, options of the compile task are specified in the `compileKotlin` variable.
+In our case, we specify that the target version of the JVM is 11 with `jvmTarget` and we configure the compiler to generate error by adding the `-Xjsr305=strict` flag.
