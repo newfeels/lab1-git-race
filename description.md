@@ -21,8 +21,8 @@ These technologies can be divided depending on its use:
 
 ### How to deploy in a Kubernetes cluster
 
-First of all, ensure you've got a properly configured cluster on your computer. 
-If you don't have one, you can easily install a local Kubernetes cluster via 
+First of all, ensure you've got a properly configured cluster on your computer.
+If you don't have one, you can easily install a local Kubernetes cluster via
 [Minikube](https://minikube.sigs.k8s.io/docs/start/).
 
 #### With Minikube
@@ -33,7 +33,7 @@ First, start your local cluster if you haven't done so yet:
 minikube start
 ```
 
-Once you have a running minikube cluster, apply the `deployment.yml` manifest as follows 
+Once you have a running minikube cluster, apply the `deployment.yml` manifest as follows
 (ensure your current directory is at the root of the project):
 
 ```bash
@@ -41,6 +41,7 @@ minikube kubectl -- apply -f .\deployment.yaml
 ```
 
 **Note:** Wait until the pods are on a `Running` state. You can check your cluster status with the following command:
+
 ```bash
 minikube kubectl get all
 ```
