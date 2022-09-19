@@ -14,12 +14,5 @@ Some ideas for obtaining a :gift: if you are the first that:
 user name | NIA    | GitHub Action |Score
 ----------|--------|---------------|-----
 [UNIZAR-30246-WebEngineering](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race) | 30246  | [![Build Status](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml)
-[ZenithGD](https://github.com/ZenithGD/lab1-git-race) | 795306 | [![Build Status](https://github.com/ZenithGD/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/ZenithGD/lab1-git-race/actions/workflows/ci.yml) | :gift:
-[celiia01](https://github.com/celiia01/lab1-git-race) |796685 | [![Build Status](https://github.com/celiia01/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/celiia01/lab1-git-race/actions/workflows/ci.yml)
-[Hec7or-Uni](https://github.com/Hec7or-Uni/lab1-git-race) |798095 | [![Build Status](https://github.com/Hec7or-Uni/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Hec7or-Uni/lab1-git-race/actions/workflows/ci.yml) | :gift:
-[HugoLazaro](https://github.com/HugoLazaro/lab1-git-race) |801758 | [![Build Status](https://github.com/HugoLazaro/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/HugoLazaro/lab1-git-race/actions/workflows/ci.yml)
-[paul-huszak](https://github.com/paul-huszak/lab1-git-race) |759934 | [![Build Status](https://github.com/paul-huszak/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/paul-huszak/lab1-git-race/actions/workflows/ci.yml)
-[rubenDTD](https://github.com/rubenDTD/lab1-git-race) |736650 | [![Build Status](https://github.com/rubenDTD/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/rubenDTD/lab1-git-race/actions/workflows/ci.yml)
-[pikanachi](https://github.com/pikanachi/lab1-git-race) |610720 | [![Build Status](https://github.com/pikanachi/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/pikanachi/lab1-git-race/actions/workflows/ci.yml)
 [GueorguiKachan](https://github.com/GueorguiKachan/lab1-git-race) |794999 | [![Build Status](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml)
 (https://travis-ci.org/GueorguiKachan/lab1-git-race)
