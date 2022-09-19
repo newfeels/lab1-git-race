@@ -11,7 +11,6 @@ Some ideas for obtaining a :gift: if you are the first that:
 - **Home improvement II**: Use an endpoint that returns the message and update the HTML in client side (no MVC server side)
 - **Home improvement III**: Use modern JS framework (React) and a Restful web service (no MVC server side)
 
-
 user name | NIA    | GitHub Action |Score
 ----------|--------|---------------|-----
 [UNIZAR-30246-WebEngineering](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race) | 30246  | [![Build Status](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml)
@@ -21,4 +20,5 @@ user name | NIA    | GitHub Action |Score
 [HugoLazaro](https://github.com/HugoLazaro/lab1-git-race) |801758 | [![Build Status](https://github.com/HugoLazaro/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/HugoLazaro/lab1-git-race/actions/workflows/ci.yml)
 [paul-huszak](https://github.com/paul-huszak/lab1-git-race) |759934 | [![Build Status](https://github.com/paul-huszak/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/paul-huszak/lab1-git-race/actions/workflows/ci.yml)
 [rubenDTD](https://github.com/rubenDTD/lab1-git-race) |736650 | [![Build Status](https://github.com/rubenDTD/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/rubenDTD/lab1-git-race/actions/workflows/ci.yml)
+[pikanachi](https://github.com/pikanachi/lab1-git-race) |610720 | [![Build Status](https://github.com/pikanachi/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/pikanachi/lab1-git-race/actions/workflows/ci.yml)
 [HectorRute98](https://github.com/HectorRute98/lab1-git-race) |736259 | [![Build Status](https://github.com/HectorRute98/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/HectorRute98/lab1-git-race/actions/workflows/ci.yml)
