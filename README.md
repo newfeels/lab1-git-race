@@ -22,3 +22,4 @@ user name | NIA    | GitHub Action |Score
 [rubenDTD](https://github.com/rubenDTD/lab1-git-race) |736650 | [![Build Status](https://github.com/rubenDTD/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/rubenDTD/lab1-git-race/actions/workflows/ci.yml)
 [pikanachi](https://github.com/pikanachi/lab1-git-race) |610720 | [![Build Status](https://github.com/pikanachi/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/pikanachi/lab1-git-race/actions/workflows/ci.yml)
 [GueorguiKachan](https://github.com/GueorguiKachan/lab1-git-race) |794999 | [![Build Status](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml)
+(https://travis-ci.org/GueorguiKachan/lab1-git-race)
