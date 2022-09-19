@@ -15,3 +15,4 @@ user name | NIA    | GitHub Action |Score
 ----------|--------|---------------|-----
 [UNIZAR-30246-WebEngineering](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race) | 30246  | [![Build Status](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/UNIZAR-30246-WebEngineering/lab1-git-race/actions/workflows/ci.yml)
 [GueorguiKachan](https://github.com/GueorguiKachan/lab1-git-race) |794999 | [![Build Status](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml)
+
