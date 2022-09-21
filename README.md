@@ -27,3 +27,4 @@ user name | NIA    | GitHub Action |Score
 [Davidzf21](https://github.com/Davidzf21/lab1-git-race) |780500 | [![Build Status](https://github.com/Davidzf21/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Davidzf21/lab1-git-race/actions/workflows/ci.yml)
 [jbuil](https://github.com/jbuil/lab1-git-race) |797285 | [![Build Status](https://github.com/jbuil/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/jbuil/lab1-git-race/actions/workflows/ci.yml)
 [GueorguiKachan](https://github.com/GueorguiKachan/lab1-git-race) |794999 | [![Build Status](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml)
+[PilarEster](https://github.com/PilarEster/lab1-git-race) |800033 | [![BuildStatus](https://github.com/PilarEster/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/PilarEster/lab1-git-race/actions/workflows/ci.yml)
