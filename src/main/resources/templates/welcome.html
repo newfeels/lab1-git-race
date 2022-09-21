@@ -29,7 +29,21 @@ contains the tittle of the page "Hello world". -->
     <h1 class="display-5 fw-bold">My first Web App</h1>
     <!-- Div element is used to create group of content.
          P label is used to introduce text on the document.
-         th:text="${message}" is using app.message from application.properties.-->
+         th:text="${message}" is using app.message from application.properties.
+	
+	The next piece of information is related to the 
+	META-INF/additional-spring-configuration-metadata.json file but is 
+	added here because it's not possible to write comments in a JSON file.
+
+	 In the META-INF folder there is a configuration metadata file and it's
+	 written in a JSON format. The file contains a 'property', which is a 
+	 configuration item that the user specifies with a given value. In this
+	 case, the name of the property is  app.message (this attribute is 
+	 mandatory) and its value is specified in the application.properties 
+	 file ('Hola estudiante'). The attribute 'type' specifies the full signature of the data type of the 
+	 property (in this case the value of the property must be a String) . Finally, the description attribute
+	 provides a short description of the property that can be displayed to users. 
+    -->
     <div class="col-lg-6 mx-auto">
         <p class="lead mb-4" th:text="${message}">Hello student.</p>
     </div>
