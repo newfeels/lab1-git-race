@@ -21,3 +21,4 @@ user name | NIA    | GitHub Action |Score
 [paul-huszak](https://github.com/paul-huszak/lab1-git-race) |759934 | [![Build Status](https://github.com/paul-huszak/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/paul-huszak/lab1-git-race/actions/workflows/ci.yml)
 [rubenDTD](https://github.com/rubenDTD/lab1-git-race) |736650 | [![Build Status](https://github.com/rubenDTD/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/rubenDTD/lab1-git-race/actions/workflows/ci.yml)
 [pikanachi](https://github.com/pikanachi/lab1-git-race) |610720 | [![Build Status](https://github.com/pikanachi/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/pikanachi/lab1-git-race/actions/workflows/ci.yml)
+[ibon2](https://github.com/Ibon2/lab1-git-race-1) | 776561 | [![Build Status](https://github.com/Ibon2/lab1-git-race-1/actions/workflows/ci.yml/badge.svg)](https://github.com/Ibon2/lab1-git-race-1/actions/workflows/ci.yml)

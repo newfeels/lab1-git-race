@@ -2,6 +2,7 @@
 <!-- TOC -->
 
 * [Which are the technologies used in the code](#which-are-the-technologies-used-in-the-code)
+* [Building the app](#build-the-app)
 * [Deployment](#deployment)
     * [Docker Usage](#docker-usage)
     * [Docker Compose](#docker-compose)
@@ -36,6 +37,14 @@ These technologies can be divided depending on its use:
 * On the server-side we can found Kotlin with the framework Spring, we use Kotlin here because of its features which can be useful on the develop the app.
 * To desing the page has been choosen HTML with Bootstrap which is use to customize the page with Sass.
 * Finally for build automation we have Gradle. Gradle is a feature which helps us with the compilation of the code, avoiding overwork.
+
+## Build the app
+
+For building and running the app you will have to use  `gradlew`:
+For listing all options you have to execute : `./gradlew tasks`
+The most important commands you have is `build` for building and `bootRun` for running the application.
+
+For checking if it works you only have to go to <http://localhost:8080> and there will be an image of Universidad of Zaragoza
 
 ## Deployment
 
