@@ -25,3 +25,4 @@ user name | NIA    | GitHub Action |Score
 [ibon2](https://github.com/Ibon2/lab1-git-race-1) | 776561 | [![Build Status](https://github.com/Ibon2/lab1-git-race-1/actions/workflows/ci.yml/badge.svg)](https://github.com/Ibon2/lab1-git-race-1/actions/workflows/ci.yml)
 [HectorRute98](https://github.com/HectorRute98/lab1-git-race) |736259 | [![Build Status](https://github.com/HectorRute98/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/HectorRute98/lab1-git-race/actions/workflows/ci.yml)
 [Davidzf21](https://github.com/Davidzf21/lab1-git-race) |780500 | [![Build Status](https://github.com/Davidzf21/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Davidzf21/lab1-git-race/actions/workflows/ci.yml)
+[jbuil](https://github.com/jbuil/lab1-git-race) |797285 | [![Build Status](https://github.com/jbuil/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/jbuil/lab1-git-race/actions/workflows/ci.yml)
