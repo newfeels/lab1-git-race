@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.GetMapping
 
 /**
- * A HTTP request controller
+ *   [HelloController] configures the controller and set the initial message. 
  */
 @Controller
 class HelloController {
@@ -25,6 +25,11 @@ class HelloController {
      * @return the name of the view in MVC
      */
     @GetMapping("/")
+    /**
+     *   Adds "Hello world"(value) in the key identified as "message" in model 
+     *   @param model : modifiable collection that holds pairs of objects (keys and values).
+     *   @return string "welcome". 
+     */
     fun welcome(model: MutableMap<String,Any>): String {
         model["message"] =  message
         return "welcome"
