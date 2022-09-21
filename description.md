@@ -2,7 +2,7 @@
 <!-- TOC -->
 
 * [Which are the technologies used in the code](#which-are-the-technologies-used-in-the-code)
-* [Building the app](#build-the-app)
+* [Build the app](#build-the-app)
 * [Deployment](#deployment)
     * [Docker Usage](#docker-usage)
     * [Docker Compose](#docker-compose)
@@ -18,6 +18,7 @@
     * [Prerequisites](#prerequisites)
     * [How to test the project](#how-to-test-the-project)
     * [How to build and run the project](#how-to-build-and-run-the-project)
+* [IntegrationTest.kt description](#integrationtestkt-description)
 
 <!-- /TOC -->
 
@@ -286,3 +287,7 @@ gradle bootRun
 Then you can open your browser and check the following [page](http://localhost:8080/) wich will show you the website running.
 
 To stop the webserver just press `Ctrl` + `c` on your terminal.
+
+## IntegrationTest.kt description
+
+File that containing the integration tests. The purpose of integration testing is to confirm that different components of the application interact with each other. Integration testing is considered complete, when actual results and expected results are same. In this case, we want to check that the modified client connects correctly to the server.
