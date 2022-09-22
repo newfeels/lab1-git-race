@@ -53,11 +53,23 @@ class IntegrationTest {
         }
     }
 
+    /**
+     * Test that checks if the headers of a specify file are of type <text> and subtype <css>
+     * Before that, it checks if the server answers with the good response and the response cointains a body
+     * with a keyword also named body when the request is done
+     * In this case, the file checked is http://localhost:$port/webjars/bootstrap/5.1.0/css/bootstrap.min.css
+     */
+
     @Test
     fun testCss() {
+        // With <with> we can create a synchronous send http request
         with(restTemplate.getForEntity("http://localhost:$port/webjars/bootstrap/5.1.0/css/bootstrap.min.css", String::class.java)) {
+            // Checks if server response is the one expected
             assertThat(statusCode).isEqualTo(HttpStatus.OK)
+            // Checks if server's response body has a keyword named <body>
             assertThat(body).contains("body")
+            // MediaType is a two-part identifier for the format of files transferred on the Internet.
+            // Here it is used to check that headers are of type <text> and subtype <css>
             assertThat(headers.contentType).isEqualTo(MediaType.valueOf("text/css"))
         }
     }
