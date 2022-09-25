@@ -54,10 +54,10 @@ class IntegrationTest {
     }
 
     /**
-     * Test that checks if the headers of a specify file are of type <text> and subtype <css>
+     * Test that checks if the headers of a specify file are of type `text` and subtype `css`
      * Before that, it checks if the server answers with the good response and the response cointains a body
      * with a keyword also named body when the request is done
-     * In this case, the file checked is http://localhost:$port/webjars/bootstrap/5.1.0/css/bootstrap.min.css
+     * In this case, the file checked is `http://localhost:$port/webjars/bootstrap/5.1.0/css/bootstrap.min.css`
      */
 
     @Test
