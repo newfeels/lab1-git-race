@@ -291,3 +291,19 @@ To stop the webserver just press `Ctrl` + `c` on your terminal.
 ## IntegrationTest.kt description
 
 File that containing the integration tests. The purpose of integration testing is to confirm that different components of the application interact with each other. Integration testing is considered complete, when actual results and expected results are same. In this case, we want to check that the modified client connects correctly to the server.
+
+
+## HelloController tests description
+
+There are two different tests generated for this controller in the project:
+
+* HelloControllerUnitTests
+* HelloControllerMVCTests
+
+### HelloControllerUnitTests
+
+File that contains tests whose purpose is to prove the correct internal performance. This tests may prove the behaviour of a function for all its possible input parameters (this possible inputs includes correct and wrong values). In this case, the test check that the function welcome returns the correct value and modifies the map correctly.
+
+### HelloControllerMVCTests
+
+File that contains tests whose purpose is to prove the correct performance when different components interact among themselves. In the case of this test, it generates a GET request and prove that this request finish wit correct status and returns the correct value.
