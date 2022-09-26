@@ -32,4 +32,4 @@ user name | NIA    | GitHub Action |Score
 [798523](https://github.com/798523/lab1-git-race) | 798523 | [![BuildStatus](https://github.com/798523/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/798523/lab1-git-race/actions/workflows/ci.yml)
 [motinsa](https://github.com/motinsa/lab1-git-race) |797610 | [![Build Status](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml)
 [newfeels](https://github.com/newfeels/lab1-git-race) | 779898 | [![BuildStatus](https://github.com/newfeels/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/newfeels/lab1-git-race/actions/workflows/ci.yml)
-p3n4x0](https://github.com/p3n4x0/lab1-git-race) | 774572 | [![BuildStatus](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml)
+[p3n4x0](https://github.com/p3n4x0/lab1-git-race) | 774572 | [![BuildStatus](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml)
