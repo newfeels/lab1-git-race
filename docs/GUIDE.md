@@ -95,11 +95,12 @@ cd lab1-git-race
 ./gradlew bootRun
 ```
 
-After, you have to check it in your browser, using the URL [http://localhost:8080/](http://localhost:8080/) or using the command [Curl](https://manpages.org/curl) to check it in your terminal instead of the browser (you will see the http code).
+After, you have to check it in your browser, using the URL <http://localhost:8080> or using the command [Curl](https://manpages.org/curl) to check it in your terminal instead of the browser (you will see the http code).
 
 ```bash
 curl http://localhost:8080/
 ```
+
 Furthermore, you are able to check all the tools provided by [Gradle](http://gradle.org/) using the following command in the terminal
 
 ```bash

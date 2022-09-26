@@ -30,5 +30,3 @@ user name | NIA    | GitHub Action |Score
 [PilarEster](https://github.com/PilarEster/lab1-git-race) | 800033 | [![BuildStatus](https://github.com/PilarEster/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/PilarEster/lab1-git-race/actions/workflows/ci.yml)
 [Jaime1401](https://github.com/Jaime1401/lab1-git-race) | 801965 | [![BuildStatus](https://github.com/Jaime1401/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/Jaime1401/lab1-git-race/actions/workflows/ci.yml)
 [p3n4x0](https://github.com/p3n4x0/lab1-git-race) | 774572 | [![BuildStatus](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/p3n4x0/lab1-git-race/actions/workflows/ci.yml)
-
-
