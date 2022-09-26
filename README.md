@@ -28,3 +28,4 @@ user name | NIA    | GitHub Action |Score
 [jbuil](https://github.com/jbuil/lab1-git-race) |797285 | [![Build Status](https://github.com/jbuil/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/jbuil/lab1-git-race/actions/workflows/ci.yml)
 [GueorguiKachan](https://github.com/GueorguiKachan/lab1-git-race) |794999 | [![Build Status](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/GueorguiKachan/lab1-git-race/actions/workflows/ci.yml)
 [PilarEster](https://github.com/PilarEster/lab1-git-race) |800033 | [![BuildStatus](https://github.com/PilarEster/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/PilarEster/lab1-git-race/actions/workflows/ci.yml)
+[motinsa](https://github.com/motinsa/lab1-git-race) |797610 | [![Build Status](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml/badge.svg)](https://github.com/motinsa/lab1-git-race/actions/workflows/ci.yml)
